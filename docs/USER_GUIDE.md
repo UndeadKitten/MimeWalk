@@ -5,8 +5,8 @@ There are two parts you need.
 - **The avatar part** (`MimeWalk.unitypackage`) adds a MimeWalk menu
   to your avatar, plus an optional light and click on each step. Only you see
   and hear them. The light shows only in your own view.
-- **The app** (`MimeWalk.exe`) runs in a console window next to VRChat. It
-  reads your menu and sends the pulsing movement.
+- **The app** (`MimeWalk.exe` or `mimewalk.py`) runs in a console window next to VRChat. It reads your menu and
+  sends the pulsing movement.
 
 ## 1. Add it to your avatar
 
@@ -37,10 +37,21 @@ avatar with changed parameters, use **OSC > Reset Config** while wearing it.
 
 ## 3. Run the app and walk
 
-Extract the zip first, then run `MimeWalk.exe`. It opens a console (command
-prompt) window showing a status line; leave it open while you play, and close
-it (or press Ctrl+C) to quit. Windows may warn about an unknown publisher;
-choose **More info > Run anyway**.
+Run `MimeWalk.exe`. It opens a console (command prompt) window showing a
+status line; leave it open while you play, and close it (or press Ctrl+C)
+to quit. Windows may warn about an unknown publisher; choose
+**More info > Run anyway**.
+
+**Using `mimewalk.py` instead of the exe:**
+
+1. Install [Python](https://www.python.org/downloads/) 3.11 or newer.
+2. Open a command prompt in that folder: you can do this in File Explorer 
+   by clicking the address bar, typing `cmd`, and pressing Enter.
+3. Install the python-osc add-on: `py -m pip install python-osc`
+4. Start it: `py mimewalk.py`
+
+It should work the same as the exe: the same console window, and close it to quit.
+
 In VRChat, open **Action Menu > Expressions > MimeWalk**:
 
 | Control | What it does |
@@ -58,7 +69,7 @@ lowest halfway between beats.
 ## Settings
 
 The first time the app runs, it creates `config.toml` next to
-`MimeWalk.exe`. Open it in Notepad. Every setting has a comment. Save, then
+`MimeWalk.exe` (or next to `mimewalk.py`). Open it in Notepad. Every setting has a comment. Save, then
 restart the app. When the app starts, it moves the avatar's Tempo, Surge and
 Speed radials to the starting values from the config. The settings include:
 
@@ -76,6 +87,9 @@ steps.
 - **Antivirus blocks MimeWalk.exe.** Some antivirus programs wrongly flag
   small unsigned apps packaged like this one. Allow it, or run `mimewalk.py`
   with Python instead.
+- **`mimewalk.py` won't start.** If the command prompt says `'py' is not
+  recognized`, install Python from python.org. If it says
+  `No module named 'pythonosc'`, run `py -m pip install python-osc`.
 - **I keep moving after the app closed.** VRChat keeps the last movement it
   received. Closing the app should always stop you; only a crash or a
   force-kill can leave you moving. Starting the app again may stop you without
