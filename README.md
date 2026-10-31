@@ -1,2 +1,16 @@
 # MimeWalk
-An OSC walking python script for VRChat that oscillates your movement speed to more closely simulate real life motion when mime walking (mime walking is when you walk in place to make it look like you're realistically walking in VRC).
+
+Make walking in place look like real walking in VRChat. MimeWalk speeds
+you up and slows you down on every step, in time with your walking mime.
+
+- **`app/mimewalk.py`** (`MimeWalk.exe`): a small console app. It reads
+  your avatar's menu over OSC and sends a pulsing movement input. Settings are
+  in `config.toml`.
+- **`MimeWalk.unitypackage`**: adds a MimeWalk menu (Walk, Feedback,
+  Tempo, Surge, Speed) and an optional light and click on each step to any
+  avatar, through Modular Avatar or VRCFury. The light uses Poiyomi Toon and
+  shows only in your own view. The package contains no scripts and uses 0
+  synced parameter bits.
+
+Docs: [user guide](docs/USER_GUIDE.md) · [choreography](docs/CHOREOGRAPHY.md) ·
+[developer notes](docs/DEVELOPER.md)

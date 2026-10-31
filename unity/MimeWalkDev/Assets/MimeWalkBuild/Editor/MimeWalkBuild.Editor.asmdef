@@ -1,0 +1,24 @@
+{
+    "name": "MimeWalkBuild.Editor",
+    "rootNamespace": "MimeWalkBuild",
+    "references": [
+        "nadena.dev.modular-avatar.core",
+        "nadena.dev.ndmf.runtime",
+        "com.vrcfury.api"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "VRCSDKBase.dll",
+        "VRCSDK3A.dll",
+        "VRC.Dynamics.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

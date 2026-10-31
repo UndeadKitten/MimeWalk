@@ -1,0 +1,12 @@
+[project]
+name = "mimewalk"
+version = "0.2.0"
+description = "Pulses your VRChat movement speed once per step, so walking in place looks real."
+requires-python = ">=3.11"
+dependencies = ["python-osc>=1.8"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pyinstaller>=6.10"]
+
+[tool.pytest.ini_options]
+testpaths = ["test_mimewalk.py"]
