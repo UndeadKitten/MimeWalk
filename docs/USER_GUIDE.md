@@ -23,7 +23,7 @@ Companion), plus:
    then click **Import**.
 2. From the `MimeWalk` folder, drag `MimeWalk (Modular Avatar)` or
    `MimeWalk (VRCFury)` onto your avatar in the Hierarchy.
-3. Choose your feedback. Expand `MimeWalk ▸ Head`:
+3. Choose your feedback. Expand `MimeWalk > Head`:
    - for **sound only**, untick (or delete) `Visual`
    - for the **light only**, untick (or delete) `Audio`
    - leave both for both
@@ -32,16 +32,16 @@ Companion), plus:
 
 ## 2. Turn on OSC in VRChat (once)
 
-Open **Action Menu ▸ Options ▸ OSC** and switch it on. After re-uploading an
-avatar with changed parameters, use **OSC ▸ Reset Config** while wearing it.
+Open **Action Menu > Options > OSC** and switch it on. After re-uploading an
+avatar with changed parameters, use **OSC > Reset Config** while wearing it.
 
 ## 3. Run the app and walk
 
 Extract the zip first, then run `MimeWalk.exe`. It opens a console (command
 prompt) window showing a status line; leave it open while you play, and close
 it (or press Ctrl+C) to quit. Windows may warn about an unknown publisher;
-choose **More info ▸ Run anyway**.
-In VRChat, open **Action Menu ▸ Expressions ▸ MimeWalk**:
+choose **More info > Run anyway**.
+In VRChat, open **Action Menu > Expressions > MimeWalk**:
 
 | Control | What it does |
 |---|---|
