@@ -90,7 +90,7 @@ recipients have nothing to compile:
   `tools/make_sounds.py`).
 
 **Rebuild and export.** `Assets/MimeWalkBuild/Editor/BuildPackage.cs`
-(dev only, never exported) does this, from **Tools ▸ MimeWalk (dev) ▸
+(dev only, never exported) does this, from **Tools > MimeWalk (dev) >
 Build Package** or headlessly:
 
 ```bash
