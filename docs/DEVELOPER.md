@@ -126,3 +126,5 @@ This zips the exe, the package and the user docs into
 - the click is audible
 - other players see and hear neither
 - partial `/input/Vertical` values scale speed smoothly in the worlds you use
+
+(Built with Claude Code - Opus 5.5 Ultracode)
