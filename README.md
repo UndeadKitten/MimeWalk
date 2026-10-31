@@ -12,4 +12,3 @@ you up and slows you down on every step, in time with your mime walking.
   shows only in your own view.
 
 Docs: [user guide](docs/USER_GUIDE.md) · [choreography](docs/CHOREOGRAPHY.md) ·
-[developer notes](docs/DEVELOPER.md)
