@@ -8,7 +8,7 @@ app/test_mimewalk.py   tests (pytest), including a run of the real app against t
 app/fake_vrchat.py        pretend to be VRChat, for trying the app without the game
 app/build_exe.ps1         runs the tests, then builds dist/MimeWalk.exe (console, one file)
 unity/MimeWalkDev/     dev Unity project; Assets/MimeWalk is what ships, Assets/MimeWalkBuild builds it
-tools/                    build_unitypackage.ps1, make_sounds.py, make_release.ps1
+tools/                    build_unitypackage.ps1, make_sounds.py
 ```
 
 ## Parameter contract
@@ -111,14 +111,9 @@ isn't in Unity Hub's default folder, add `-Unity "path\to\Unity.exe"`.
 
 ## Release
 
-Build the exe and the package, then run:
-
-```bash
-powershell -ExecutionPolicy Bypass -File tools/make_release.ps1
-```
-
-This zips the exe, the package and the user docs into
-`dist/MimeWalk-<version>.zip`. The version comes from `app/pyproject.toml`.
+Build the exe and the package, then attach `dist/MimeWalk.exe`,
+`dist/MimeWalk.unitypackage` and `app/mimewalk.py` to a GitHub release. The
+version number is in `app/pyproject.toml`.
 
 ## Only in-game testing can confirm
 
