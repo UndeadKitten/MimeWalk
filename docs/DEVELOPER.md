@@ -19,10 +19,10 @@ to the avatar, so the menu always shows what the app is using.
 
 | Param | Type | Direction | Meaning |
 |---|---|---|---|
-| `On` | bool | menu → app | Walk toggle |
-| `Feedback` | bool | menu → avatar | Light and/or click on each step |
-| `BPM`, `Surge`, `Speed` | float 0–1 | menu → app | Radials, mapped by `bpm_min`/`bpm_max`, `surge_max` and 0–1 |
-| `Beat` | bool | app → avatar | Flips on every step: true = left foot, false = right. Reset to false when stopped. |
+| `On` | bool | menu > app | Walk toggle |
+| `Feedback` | bool | menu > avatar | Light and/or click on each step |
+| `BPM`, `Surge`, `Speed` | float 0–1 | menu > app | Radials, mapped by `bpm_min`/`bpm_max`, `surge_max` and 0–1 |
+| `Beat` | bool | app > avatar | Flips on every step: true = left foot, false = right. Reset to false when stopped. |
 
 ## App
 
