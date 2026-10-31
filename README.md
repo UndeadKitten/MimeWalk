@@ -11,4 +11,4 @@ you up and slows you down on every step, in time with your mime walking.
   avatar, through Modular Avatar or VRCFury. The light uses Poiyomi Toon and
   shows only in your own view.
 
-Docs: [user guide](docs/USER_GUIDE.md) · [choreography](docs/CHOREOGRAPHY.md) ·
+Docs: [user guide](docs/USER_GUIDE.md) · [choreography](docs/CHOREOGRAPHY.md)
